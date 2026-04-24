@@ -16,7 +16,7 @@ let package = Package(
         .package(url: "https://github.com/ml-explore/mlx-swift", from: "0.29.0"),
         .package(url: "https://github.com/huggingface/swift-transformers", .upToNextMajor(from: "1.0.0")),
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.3.0"),
-        .package(url: "https://github.com/Moshe-ship/vocos-swift.git", revision: "f097a00a51f2823fcfdddbb4447708e8521f1626")
+        .package(url: "https://github.com/jbauman3886/vocos-swift.git", branch: "main")
     ],
     targets: [
         .target(
